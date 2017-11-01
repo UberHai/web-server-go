@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Player Classes</title>
+</head>
+<body>{{range $index, $element := .}}
+{{$Name := $element.Name}}{{$Rating := $element.Definition}}
+<li>{{$index}} - {{$Name}} - {{$Rating}}</li>
+{{end}}
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Player Classes & Weapons</title>
+</head>
+<body>
+{{range .PlayerClasses}}
+<li>{{.Name}} - {{.Definition}}</li>
+{{end}}
+{{range .PlayerWeapons}}
+<li>{{.Name}} - {{.Weild}} - {{.Class}} - {{.Damage}} dmg</li>
+{{end}}
+</body>
+</html>
