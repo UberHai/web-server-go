@@ -30,7 +30,7 @@ func main() {
 	}
 	rogue := class{
 		Name:       "Rogue",
-		Definition: "Swift and Adept a rogue uses cunningness to outwit his opponants.",
+		Definition: "Swift and Adept a rogue uses cunningness to outwit his opponents.",
 	}
 	marksman := class{
 		Name:       "Marksman",

@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nesting Templates</title>
+</head>
+<body>
+    <h1>The meaning of life: {{.}}</h1>
+    {{template "table"}}
+    {{template "div"}}
+    <!-- Passing data to a template works as well -->
+    {{template "ol" .}}
+</body>
+</html>
